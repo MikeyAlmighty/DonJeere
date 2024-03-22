@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import { About } from "../components/sections/about/About";
 
 const Home = () => (
   <Layout title="Don Jeere | Home">
@@ -7,6 +8,7 @@ const Home = () => (
         <h1>Welcome to Don Jeere</h1>
       </div>
     </span>
+    <About />
   </Layout>
 );
 

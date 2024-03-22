@@ -1,0 +1,16 @@
+@import 'variables';
+
+section {
+    background-color: $secondary-color;
+    height: 25vh;
+}
+
+div {
+    p {
+        color: green;
+    }
+}
+
+.heading {
+    font-size: 2em
+}
