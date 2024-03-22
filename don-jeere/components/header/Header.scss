@@ -3,13 +3,10 @@
 header {
     background-color: $primary-color;
     color: $secondary-color;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   
     h1 {
-      margin: 0;
+      // TODO: add variable?
+      color: $secondary-color;
     }
   
     nav {
@@ -17,21 +14,12 @@ header {
         list-style: none;
         padding: 0;
         margin: 0;
-  
-        li {
-          display: inline-block;
-          margin-left: 20px;
-  
-          a {
-            color: white;
-            text-decoration: none;
-  
-            &:hover {
-              text-decoration: underline;
-              color: $secondary-color
-            }
-          }
-        }
       }
     }
   }
+
+.container {
+  // TODO: add variable 
+  background-color: lightgray;
+  height: 25vh;
+}

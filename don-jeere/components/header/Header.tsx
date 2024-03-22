@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from "next/link";
+
 import './Header.scss';
 
 export const Header = (props) => {
@@ -7,12 +9,10 @@ export const Header = (props) => {
             <h1>Don Jeere</h1>
             <nav>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <Link href="/">Home</Link>
+                    <Link href="/about">About</Link>
                 </ul>
             </nav>
         </header>
-        
     )
-}
+};
