@@ -3,18 +3,18 @@ import { metricData } from './data'
 
 export const Metrics = () => {
     return(
-        <span className="container">
+        <span className="metricContainer">
             <span>
-                <h3>Clients</h3>
-                <p>{metricData.clients}</p>
+                <h2 className="title">Clients</h2>
+                <p className="value">{metricData.clients}</p>
             </span>
             <span>
-                <h3>Tractors Sold</h3>
-                <p>{metricData.sold}</p>
+                <h2 className="title">Tractors Sold</h2>
+                <p className="value">{metricData.sold}</p>
             </span>
             <span>
-                <h3>Stores Nationwide</h3>
-                <p>{metricData.stores}</p>
+                <h2 className="title">Stores Nationwide</h2>
+                <p className="value">{metricData.stores}</p>
             </span>
         </span>
     )

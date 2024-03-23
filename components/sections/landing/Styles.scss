@@ -4,9 +4,10 @@ body {
     margin: 0;
 }
 
-.container {
+.landingContainer {
     display: flex;
     flex-direction: column;
+    background-color: $secondary-color;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -50,9 +51,9 @@ h3 {
 }
 
 .slide-in-right {
-    font-weight: 700;
-    animation: slideInFromRight 1s forwards; 
+    font-weight: 400;
+    animation: slideInFromRight 1s forwards;
     color: black;
     opacity: 0;
-    font-size: xx-large;
+    font-size: large;
 }

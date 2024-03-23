@@ -1,12 +1,16 @@
 import Layout from "../components/Layout";
 
 import { Landing } from "../components/sections/landing/Landing";
-import { About } from "../components/sections/about/About";
+import { WhatWeDo } from "../components/sections/about/WhatWeDo";
+import { Metrics } from "../components/sections/metrics/Metrics";
+import { ContactUs } from "../components/sections/contact-us/ContactUs";
 
 const Home = () => (
   <Layout title="Don Jeere | Home">
     <Landing />
-    <About />
+    <WhatWeDo />
+    <Metrics />
+    <ContactUs />
   </Layout>
 );
 

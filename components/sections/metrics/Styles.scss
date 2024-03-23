@@ -1,6 +1,22 @@
 @import 'variables';
 
-.container {
+.metricContainer {
     height: 20vh;
     background-color: $secondary-color;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15vw;
+    flex-direction: row;
+    text-align: center;
+    border: $primary-border;
+}
+
+.title {
+    color: $primary-color;
+    font-size: xx-large;
+}
+
+.value {
+    color: black;
+    font-size: x-large;
 }
