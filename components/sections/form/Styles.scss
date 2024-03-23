@@ -1,11 +1,19 @@
+@import 'variables';
+
 .errorLabel {
   color: red;
 }
 
-
 .formContainer {
+  width: 40vw;
+  height: 40vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0 20vw;
+  padding: 0 1em;
+  border-radius: 25px;
+  background-color: $secondary-color;
+  border: $primary-border;
 }

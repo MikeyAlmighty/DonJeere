@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import "./Styles.scss"
 
-
 export const Landing = () => {
     return (
         <span>
@@ -11,6 +10,7 @@ export const Landing = () => {
                 <Image
                     src="/landing.gif"
                     alt="Tractor loading GIF"
+                    style={{ borderRadius: "25px"}}
                     width={300}
                     height={150}
                 />
