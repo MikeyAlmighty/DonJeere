@@ -4,7 +4,7 @@ import { Landing } from "../components/sections/landing/Landing";
 import { WhatWeDo } from "../components/sections/what-we-do/WhatWeDo";
 import { Metrics } from "../components/sections/metrics/Metrics";
 import { About } from "../components/sections/about/About";
-import { Gallery } from "../components/sections/gallery/Gallery";
+import { Showcase } from "../components/sections/showcase/Showcase";
 import { ContactUs } from "../components/sections/contact-us/ContactUs";
 
 const Home = () => (
@@ -13,7 +13,7 @@ const Home = () => (
     <WhatWeDo />
     <Metrics />
     <About />
-    <Gallery />
+    <Showcase />
     <ContactUs />
   </Layout>
 );
