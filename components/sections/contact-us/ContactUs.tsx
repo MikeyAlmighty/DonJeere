@@ -9,7 +9,6 @@ const schema = yup.object().shape({
     email: yup.string().required("* Email is required"),
 });
 
-
 export const ContactUs = () => (
     <span className="contactUsContainer" id="contact-us">
         <p className="heading">Contact Us</p>

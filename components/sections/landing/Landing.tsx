@@ -10,6 +10,7 @@ export const Landing = () => {
                 <Image
                     src="/landing.gif"
                     alt="Tractor loading GIF"
+                    unoptimized={true}
                     style={{ borderRadius: "25px"}}
                     width={300}
                     height={150}
