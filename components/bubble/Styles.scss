@@ -1,0 +1,39 @@
+@import 'variables';
+
+.about-bubble-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  padding: 1em;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 2em 5em;
+  background-color: $secondary-color;
+  width: 10em;
+  border: $primary-border;
+  text-align: center;
+  height: 10em;
+}
+
+.about-bubble-secondary {
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  margin: 2em 5em;
+  border: $primary-border;
+  cursor: pointer;
+  border-radius: 100%;
+  background-color: $primary-color;
+  width: 10em;
+  text-align: center;
+  height: 10em;
+}
+
+.bubble-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
