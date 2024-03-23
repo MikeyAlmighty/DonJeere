@@ -16,7 +16,7 @@ export const Header = () => {
             <nav>
                 <ul>
                     {Links.map(({ friendly, href }) => (
-                        <Link className={selectedSection === href ? 'link-active' : 'link'} onClick={() => setSelectedSection(href)} href={href}>{friendly}</Link>
+                        <Link key={href} className={selectedSection === href ? 'link-active' : 'link'} onClick={() => setSelectedSection(href)} href={href}>{friendly}</Link>
                     ))}
                     {/*Easter Egg*/}
                     { isEasterHoliday({ currentTimeStamp: new Date().getTime() }) && <EasterEgg handleClick={notify} />}
