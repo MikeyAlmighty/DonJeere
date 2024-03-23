@@ -2,15 +2,59 @@
 
 section {
     background-color: $secondary-color;
-    height: 25vh;
-}
-
-div {
-    p {
-        color: green;
-    }
+    height: 100vh;
 }
 
 .heading {
-    font-size: 2em
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5em;
+    color: $primary-color;
+}
+
+.description-left {
+    color: $primary-color;
+    background-color: yellow;
+    text-align: center;
+    width: 25vw;
+    padding: 0.5em;
+    height: 55vh;
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        margin-top: 0.5em;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+}
+
+.description-right{
+    color: $secondary-color;
+    width: 25vw;
+    height: 55vh;
+    background-color: $primary-color;
+    text-align: center;
+    font-size: 2em;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        border: 1px solid white;
+        margin-top: 0.5em;
+        cursor: pointer;
+    }
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20vw;
 }

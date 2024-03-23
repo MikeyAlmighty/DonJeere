@@ -3,10 +3,17 @@
 header {
     background-color: $primary-color;
     color: $secondary-color;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
   
     h1 {
       // TODO: add variable?
       color: $secondary-color;
+      padding: .75em;
     }
   
     nav {
@@ -22,4 +29,12 @@ header {
   // TODO: add variable 
   background-color: lightgray;
   height: 25vh;
+}
+
+.link {
+  font-size: large;
+  padding-right: 4em;
+  &:hover {
+    color: $secondary-color
+  }
 }

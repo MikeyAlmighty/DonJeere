@@ -1,13 +1,11 @@
 import Layout from "../components/Layout";
+
+import { Landing } from "../components/sections/landing/Landing";
 import { About } from "../components/sections/about/About";
 
 const Home = () => (
   <Layout title="Don Jeere | Home">
-    <span>
-      <div className="container">
-        <h1>Welcome to Don Jeere</h1>
-      </div>
-    </span>
+    <Landing />
     <About />
   </Layout>
 );

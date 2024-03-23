@@ -1,0 +1,15 @@
+footer {
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  span {
+    display: flex;
+    flex-direction: row;
+
+    ul {
+        padding: 0 3vw;
+    }
+  }
+}
