@@ -1,4 +1,4 @@
-import './About.scss';
+import './Styles.scss';
 
 export const About = () => {
     return(

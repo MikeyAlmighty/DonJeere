@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from "next/link";
 
-import './Header.scss';
+import './Styles.scss';
 
 export const Header = (props) => {
     return(
