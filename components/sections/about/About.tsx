@@ -2,11 +2,12 @@ import './Styles.scss';
 import Image from "next/image";
 
 import {Bubble} from "../../bubble/Bubble";
+import {Fragment} from "react";
 
 export const About = () => (
-    <>
+    <span  id='about'>
         <p className='heading'>About Us</p>
-        <span className="aboutContainer" id='about'>
+        <span className="aboutContainer">
             <p className="text-left">
                 Welcome to <text className="highlight-word-primary">Don Jeere</text>! At <text className="highlight-word-primary">Don Jeere</text>, we're driven by a passion for agriculture and a commitment to providing top-quality tractors and agricultural equipment to farmers worldwide.
                 Our journey began over 2 years ago, rooted in the heart of the farming community, with a vision to revolutionize the way farmers work the land.
@@ -25,5 +26,5 @@ export const About = () => (
             <Bubble className="about-bubble-secondary" text={"24/7 Assistance"}/>
             <Bubble className="about-bubble-primary" text={"Involved"}/>
         </span>
-    </>
+    </span>
 );

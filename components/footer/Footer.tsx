@@ -7,8 +7,8 @@ export const Footer = () => {
         <footer>
             <span className="footerContainer">
                 <div>
-                    <h3 className='footerHeadings'>Content</h3>
-                    <Link href="" className='link'>View Content</Link>
+                    <h3 className='footerHeadings'>Models</h3>
+                    <Link href="#showcase" className='link'>View Models</Link>
                 </div>
                 <div>
                     <h3 className='footerHeadings'>Information</h3>
@@ -20,7 +20,7 @@ export const Footer = () => {
                 </div>
                 <div>
                     <h3 className='footerHeadings'>Help</h3>
-                    <Link href="" className='link'>Contact Us</Link>
+                    <Link href="#contact-us" className='link'>Contact Us</Link>
                 </div>
             </span>
             <p className='copyright'>Copyright © 2024. Don Jeere All rights reserved</p>
