@@ -5,7 +5,9 @@
     background-color: $secondary-color;
     display: flex;
     justify-content: space-around;
-    padding: 0 15vw;
+    align-items: center;
+    padding: 0 5em;
+    margin-top: 5em;
     flex-direction: row;
     text-align: center;
     border: $primary-border;
