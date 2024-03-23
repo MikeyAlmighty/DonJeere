@@ -4,6 +4,5 @@ interface isEasterHolidayProps {
    currentTimeStamp: number;
 }
 
-export const isEasterHoliday = ({ currentTimeStamp }: isEasterHolidayProps) => {
-   return new Date(currentTimeStamp) > new Date(EASTER_TIMESTAMP)
-};
+export const isEasterHoliday = ({ currentTimeStamp }: isEasterHolidayProps) =>
+    new Date(currentTimeStamp) > new Date(EASTER_TIMESTAMP);
