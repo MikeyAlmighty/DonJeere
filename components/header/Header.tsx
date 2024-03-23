@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Link from "next/link";
 
 import './Styles.scss';
 import {EasterEgg} from "../easter-egg/EasterEgg";
 import {toast} from "react-toastify";
+import {isEasterHoliday} from "../../utils/isEasterHoliday";
 
 export const Header = () => {
+    const [selectedSection, setSelectedSection] = useState<string>('/');
     const notify = () => toast("Happy Easter!");
     return(
         <header>
@@ -15,10 +17,10 @@ export const Header = () => {
                     <Link className='link' href="/">Home</Link>
                     <Link className='link' href="#what-we-do">What We Do</Link>
                     <Link className='link' href="#about">About</Link>
-                    <Link className='link' href="#team">Our Team</Link>
-                    <Link className='link' href="#gallery">Gallery</Link>
+                    <Link className='link' href="#showcase">Showcase</Link>
                     <Link className='link' href="#contact-us">Contact Us</Link>
-                    <EasterEgg handleClick={notify} />
+                    {/*Easter Egg*/}
+                    { isEasterHoliday({ currentTimeStamp: new Date().getTime() }) && <EasterEgg handleClick={notify} />}
                 </ul>
             </nav>
         </header>

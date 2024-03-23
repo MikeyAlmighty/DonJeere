@@ -32,11 +32,9 @@
   border-radius: 100%;
   background-color: $primary-color;
   width: 10em;
+  color: white;
   text-align: center;
   height: 10em;
-  &:hover {
-    border-color: white;
-  }
 }
 
 .bubble-container {
