@@ -1,0 +1,16 @@
+@import "variables";
+
+.carousel-container {
+  margin: 5rem;
+  padding: 1em;
+  border-radius: 25px;
+  border: $primary-border;
+  background: $secondary-color;
+}
+
+.slide-content {
+}
+
+.image-container {
+  border: 25px;
+}

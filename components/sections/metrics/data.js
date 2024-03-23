@@ -1,5 +1,5 @@
 export const metricData = {
-    clients: 2_500,
-    sold: 55_000,
+    clients: "2, 500",
+    sold: "55, 000",
     stores: 30,
 }
