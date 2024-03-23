@@ -5,7 +5,7 @@ import Link from 'next/link'
 export const Footer = () => {
         return(
         <footer>
-            <span>
+            <span className="footerContainer">
                 <div>
                     <h3 className='footerHeadings'>Content</h3>
                     <Link href="" className='link'>View Content</Link>

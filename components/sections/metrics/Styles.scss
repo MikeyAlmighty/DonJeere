@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'media-queries';
 
 .metricContainer {
     height: 20vh;
@@ -11,6 +12,10 @@
     flex-direction: row;
     text-align: center;
     border: $primary-border;
+    @include tablet {
+        flex-direction: column;
+        height: 55vh;
+    }
 }
 
 .title {

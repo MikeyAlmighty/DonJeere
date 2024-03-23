@@ -1,4 +1,5 @@
 @import "variables";
+@import 'media-queries';
 
 .carousel-container {
   margin: 5rem;
@@ -6,6 +7,9 @@
   border-radius: 25px;
   border: $primary-border;
   background: $secondary-color;
+  @include tablet {
+    margin: 0;
+  }
 }
 
 .slide-content {

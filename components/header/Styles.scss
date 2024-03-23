@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'media-queries';
 
 header {
     background-color: $primary-color;
@@ -11,6 +12,10 @@ header {
     width: 100%;
     top: 0;
     left: 0;
+
+  @include tablet {
+    flex-direction: column;
+  }
   
     h1 {
       color: $secondary-color;
@@ -23,6 +28,12 @@ header {
         list-style: none;
         padding: 0;
         margin: 0;
+        @include tablet {
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          flex-direction: column;
+        }
       }
     }
   }
