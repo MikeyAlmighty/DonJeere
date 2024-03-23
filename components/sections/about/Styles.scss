@@ -9,7 +9,6 @@
   flex-direction: row;
   @include tablet {
     flex-direction: column;
-    width: 90vw;
     height: 100vh;
   }
 }
@@ -17,8 +16,8 @@
 .text-left {
   width: 50vw;
   text-align: center;
+  font-size: x-large;
   @include tablet {
-    flex-direction: column;
-    width: 90vw;
+    width: 80vw;
   }
 }
