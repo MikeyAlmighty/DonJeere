@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
 import Link from "next/link";
+import {toast} from "react-toastify";
 
 import './Styles.scss';
+import { Links } from './data'
 import {EasterEgg} from "../easter-egg/EasterEgg";
-import {toast} from "react-toastify";
 import {isEasterHoliday} from "../../utils/isEasterHoliday";
 
 export const Header = () => {
@@ -14,11 +15,9 @@ export const Header = () => {
             <h1>Don Jeere</h1>
             <nav>
                 <ul>
-                    <Link className='link' href="/">Home</Link>
-                    <Link className='link' href="#what-we-do">What We Do</Link>
-                    <Link className='link' href="#about">About</Link>
-                    <Link className='link' href="#showcase">Showcase</Link>
-                    <Link className='link' href="#contact-us">Contact Us</Link>
+                    {Links.map(({ friendly, href }) => (
+                        <Link className={selectedSection === href ? 'link-active' : 'link'} onClick={() => setSelectedSection(href)} href={href}>{friendly}</Link>
+                    ))}
                     {/*Easter Egg*/}
                     { isEasterHoliday({ currentTimeStamp: new Date().getTime() }) && <EasterEgg handleClick={notify} />}
                 </ul>

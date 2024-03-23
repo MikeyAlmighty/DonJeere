@@ -56,6 +56,13 @@ header {
   }
 }
 
+.link-active {
+  font-size: large;
+  padding-right: 4em;
+  color: black;
+  text-decoration: underline;
+}
+
 .highlight-word-primary {
   color: $primary-color;
   font-weight: 700;
