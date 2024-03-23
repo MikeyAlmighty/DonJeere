@@ -11,6 +11,7 @@ section {
     font-weight: 700;
     display: flex;
     align-items: center;
+    text-decoration: underline;
     justify-content: center;
     padding: 1em 0;
     color: $primary-color;
@@ -18,7 +19,7 @@ section {
 
 .description-left {
     color: $primary-color;
-    background-color: yellow;
+    background-color: $secondary-color;
     text-align: center;
     width: 25vw;
     padding: 0.5em;
@@ -30,7 +31,7 @@ section {
 
     &:hover {
         margin-top: 0.5em;
-        border: 1px solid white;
+        border: 1px solid darkslategray;
         cursor: pointer;
     }
 }
@@ -48,7 +49,7 @@ section {
     align-items: center;
 
     &:hover {
-        border: 1px solid white;
+        border: 1px solid darkslategray;
         margin-top: 0.5em;
         cursor: pointer;
     }

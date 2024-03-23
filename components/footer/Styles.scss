@@ -1,8 +1,11 @@
+@import 'variables';
+
 footer {
-  height: 25vh;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  background-color: $primary-color;
+  justify-content: center;
+  flex-direction: column;
 
   span {
     display: flex;
@@ -12,4 +15,26 @@ footer {
         padding: 0 3vw;
     }
   }
+}
+
+.footerHeadings {
+  color: $secondary-color;
+}
+
+.link {
+  color: $secondary-color;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }

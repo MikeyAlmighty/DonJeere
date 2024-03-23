@@ -12,7 +12,6 @@ header {
     left: 0;
   
     h1 {
-      // TODO: add variable?
       color: $secondary-color;
       padding: .75em;
     }
@@ -27,14 +26,14 @@ header {
   }
 
 .container {
-  // TODO: add variable 
-  background-color: lightgray;
+  background-color: white;
   height: 25vh;
 }
 
 .link {
   font-size: large;
   padding-right: 4em;
+  color: lightgray;
   &:hover {
     color: $secondary-color
   }
