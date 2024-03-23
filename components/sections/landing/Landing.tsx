@@ -13,7 +13,7 @@ export const Landing = () => {
                     unoptimized={true}
                     style={{ borderRadius: "25px"}}
                     width={300}
-                    height={150}
+                    height={225}
                 />
             </div>
         </span>

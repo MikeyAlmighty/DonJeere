@@ -15,7 +15,7 @@ const Layout = ({ children, title }: Props) => (
           <title>{title}</title>
           <meta charSet="utf-8"/>
           <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-          <link rel="icon" href="/tractor.svg" sizes="any"/>
+          <link rel="icon" href="/landing.gif" sizes="any"/>
       </Head>
       <Header/>
       <div style={{display: "flex", flexDirection: "column" }}>{children}</div>
