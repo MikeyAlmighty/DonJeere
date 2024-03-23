@@ -1,5 +1,9 @@
 @import 'variables';
 
+body {
+    margin: 0;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -16,9 +20,7 @@ h3 {
  color: $primary-color;
 }
 
-
-
-@keyframes slideIn {
+@keyframes slideInFromLeft {
     from {
         transform: translateX(-100%);
         opacity: 0;
@@ -29,7 +31,28 @@ h3 {
     }
 }
 
-.slide-in {
-    animation: slideIn 1s forwards; 
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.slide-in-left {
+    font-weight: 700;
+    animation: slideInFromLeft 1s forwards; 
     opacity: 0;
+    font-size: xx-large;
+}
+
+.slide-in-right {
+    font-weight: 700;
+    animation: slideInFromRight 1s forwards; 
+    color: yellow;
+    opacity: 0;
+    font-size: xx-large;
 }
