@@ -22,8 +22,9 @@ export const About = () => (
         needs of modern farming while minimizing their environmental footprint.
       </p>
       <Image
-        src="https://picsum.photos/200/300"
+        src="https://picsum.photos/500/600"
         alt="Random Image from Picsum"
+        className={"image-container"}
         width={500}
         height={600}
       />
