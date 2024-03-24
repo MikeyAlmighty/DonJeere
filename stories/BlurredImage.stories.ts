@@ -11,7 +11,7 @@ const meta = {
     src: "https://picsum.photos/399",
     alt: "Alt text here",
     width: 400,
-    height: 400
+    height: 400,
   },
 } satisfies Meta<typeof BlurredImage>;
 
@@ -23,6 +23,6 @@ export const Main: Story = {
     src: "https://picsum.photos/399",
     alt: "Alt text here",
     width: 400,
-    height: 400
+    height: 400,
   },
 };
