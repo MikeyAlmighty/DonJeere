@@ -29,9 +29,9 @@ export const About = () => (
       />
     </span>
     <span className="bubble-container">
-      <Bubble className="about-bubble-primary" text={"Friendly Team"} />
-      <Bubble className="about-bubble-secondary" text={"24/7 Assistance"} />
-      <Bubble className="about-bubble-primary" text={"Involved"} />
+      <Bubble text={"Friendly Team"} />
+      <Bubble primary={false}  text={"24/7 Assistance"} />
+      <Bubble text={"Involved"} />
     </span>
   </span>
 );

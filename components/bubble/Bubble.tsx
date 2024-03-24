@@ -1,13 +1,11 @@
 import "./Styles.scss";
 
 interface BubbleProps {
-  className: string;
   text: string;
+  primary?: boolean;
 }
-export const Bubble = ({ text, className }: BubbleProps) => {
-  return (
-    <div className={className}>
-      <p>{text}</p>
-    </div>
-  );
-};
+export const Bubble = ({ text, primary = true }: BubbleProps) => (
+  <div className={primary ? "about-bubble-primary" : "about-bubble-secondary"}>
+    <p>{text}</p>
+  </div>
+);

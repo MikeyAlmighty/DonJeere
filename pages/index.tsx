@@ -9,15 +9,15 @@ import { ContactUs } from "../components/sections/contact-us/ContactUs";
 import { Convoy } from "../components/sections/convoy/Convoy";
 
 const Home = () => (
-  <Layout title="Don Jeere | Home">
-    <Landing />
-    <WhatWeDo />
-    <Metrics />
-    <About />
-    <Showcase />
-    <ContactUs />
-    <Convoy />
-  </Layout>
-);
+        <Layout title="Don Jeere | Tractors">
+            <Landing />
+            <WhatWeDo />
+            <Metrics />
+            <About />
+            <Showcase />
+            <ContactUs />
+            <Convoy />
+        </Layout>
+    );
 
 export default Home;
