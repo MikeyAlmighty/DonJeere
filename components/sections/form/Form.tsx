@@ -48,7 +48,7 @@ export const Form = ({ schema, successMessage }: FormProps) => {
         <label className="label">Last Name:</label>
         <input
           aria-label="Last Name Input Field"
-          tabIndex={1}
+          tabIndex={0}
           {...register("lastName")}
         />
         {errors.lastName && (
@@ -59,7 +59,7 @@ export const Form = ({ schema, successMessage }: FormProps) => {
         <label className="label">Email:</label>
         <input
           aria-label="Email Input Field"
-          tabIndex={2}
+          tabIndex={0}
           {...register("email")}
         />
         {errors.email && <p className="errorLabel">{errors.email.message}</p>}

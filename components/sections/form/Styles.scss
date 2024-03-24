@@ -2,7 +2,13 @@
 @import 'media-queries';
 
 .errorLabel {
+  position: absolute;
+  left: 60%;
   color: red;
+
+  @include tablet {
+    padding-top: 5em;
+  }
 }
 
 .formContainer {
