@@ -24,6 +24,7 @@ export const About = () => (
       <Image
         src="https://picsum.photos/500/600"
         alt="Random Image from Picsum"
+        aria-label="Random Image from Picsum"
         className={"image-container"}
         width={500}
         height={600}

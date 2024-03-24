@@ -35,8 +35,8 @@ const BlurredImage = ({ src, alt, width, height }: BlurredImageProps) => {
       <Image
         src={src}
         alt={alt}
+        aria-label={"Image"}
         width={width}
-        loading={"lazy"}
         height={height}
         onLoad={handleLoad}
         style={{

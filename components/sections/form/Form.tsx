@@ -35,24 +35,24 @@ export const Form = ({ schema, successMessage }: FormProps) => {
     <form className="formContainer" onSubmit={handleSubmit(onSubmit)}>
       <span className="inputWrapper">
         <label className="label">First Name:</label>
-        <input tabIndex={0} {...register("firstName")} />
+        <input aria-label="First Name Input Field" tabIndex={0} {...register("firstName")} />
         {errors.firstName && (
           <p className="errorLabel">{errors.firstName.message}</p>
         )}
       </span>
       <span className="inputWrapper">
         <label className="label">Last Name:</label>
-        <input tabIndex={1} {...register("lastName")} />
+        <input aria-label="Last Name Input Field" tabIndex={1} {...register("lastName")} />
         {errors.lastName && (
           <p className="errorLabel">{errors.lastName.message}</p>
         )}
       </span>
       <span className="inputWrapper">
         <label className="label">Email:</label>
-        <input tabIndex={2} {...register("email")} />
+        <input aria-label="Email Input Field" tabIndex={2} {...register("email")} />
         {errors.email && <p className="errorLabel">{errors.email.message}</p>}
       </span>
-      <input type="submit" />
+      <input aria-label="Submit Button" type="submit" />
       <ToastContainer />
     </form>
   );
