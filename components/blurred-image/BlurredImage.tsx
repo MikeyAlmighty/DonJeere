@@ -36,6 +36,7 @@ const BlurredImage = ({ src, alt, width, height }: BlurredImageProps) => {
         src={src}
         alt={alt}
         width={width}
+        loading={"lazy"}
         height={height}
         onLoad={handleLoad}
         style={{ opacity: loaded ? 1 : 0, transition: 'opacity 0.5s', borderRadius: '25px' }}

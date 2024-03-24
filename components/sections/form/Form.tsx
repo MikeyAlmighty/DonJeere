@@ -35,17 +35,17 @@ export const Form = ({ schema, successMessage }: FormProps ) => {
       <form className="formContainer" onSubmit={handleSubmit(onSubmit)}>
           <span className="inputWrapper" >
               <label className="label">First Name:</label>
-              <input {...register("firstName")} />
+              <input tabIndex={0} {...register("firstName")} />
               {errors.firstName && <p className="errorLabel">{errors.firstName.message}</p>}
           </span>
           <span className="inputWrapper" >
               <label className="label">Last Name:</label>
-              <input {...register("lastName")} />
+              <input tabIndex={1} {...register("lastName")} />
               {errors.lastName && <p className="errorLabel">{errors.lastName.message}</p>}
           </span>
           <span className="inputWrapper" >
               <label className="label">Email:</label>
-              <input {...register("email")} />
+              <input tabIndex={2} {...register("email")} />
               {errors.email && <p className="errorLabel">{errors.email.message}</p>}
           </span>
           <input type="submit"/>
