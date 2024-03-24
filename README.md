@@ -12,11 +12,21 @@
  - Storybook (For UI Components)
  - jest (Util Unit Test)
 
+## Running the project locally
+
+ - `npm i`
+ - `npm run dev`
+
+## Creating a Production Build
+
+- `npm run build`
+- `npm run start`
+
 ## Contributing
 
 ### File Structure
 
-The following structure is used for developing both `components` as well as `sections`.
+The following structure is used for developing both `components` as well as `sections`:
 
 ```markdown
 .
@@ -29,7 +39,7 @@ The following structure is used for developing both `components` as well as `sec
 
 ### Commiting
 This project uses [Husky](https://typicode.github.io/husky/) `pre-commit hooks`.
-The following hooks are ran before a commit is made:
+The following is executed before a commit is made:
  - **Tests**
  - **Linter (Eslint)**
  - **Formatter (Prettier)**
