@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import Image from 'next/image'
-import axios from 'axios';
-
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 interface ImageProps {
-  existingUrl?: string
+  existingUrl?: string;
 }
 
 export const ImageComponent = ({ existingUrl }: ImageProps) => {
@@ -13,10 +11,10 @@ export const ImageComponent = ({ existingUrl }: ImageProps) => {
   useEffect(() => {
     const fetchImage = async () => {
       try {
-        const response = await axios.get('https://picsum.photos/200');
+        const response = await axios.get("https://picsum.photos/200");
         setImageUrl(response.request.responseURL);
       } catch (error) {
-        console.error('Error fetching image:', error);
+        console.error("Error fetching image:", error);
       }
     };
 

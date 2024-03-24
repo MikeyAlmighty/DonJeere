@@ -1,8 +1,8 @@
 const EASTER_TIMESTAMP = 1711922401;
 
 interface isEasterHolidayProps {
-   currentTimeStamp: number;
+  currentTimeStamp: number;
 }
 
 export const isEasterHoliday = ({ currentTimeStamp }: isEasterHolidayProps) =>
-    new Date(currentTimeStamp) > new Date(EASTER_TIMESTAMP);
+  new Date(currentTimeStamp) > new Date(EASTER_TIMESTAMP);

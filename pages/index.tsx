@@ -6,7 +6,7 @@ import { Metrics } from "../components/sections/metrics/Metrics";
 import { About } from "../components/sections/about/About";
 import { Showcase } from "../components/sections/showcase/Showcase";
 import { ContactUs } from "../components/sections/contact-us/ContactUs";
-import {Convoy} from "../components/sections/convoy/Convoy";
+import { Convoy } from "../components/sections/convoy/Convoy";
 
 const Home = () => (
   <Layout title="Don Jeere | Home">

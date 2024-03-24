@@ -1,7 +1,5 @@
-import "./Styles.scss"
+import "./Styles.scss";
 
 export const Profilecard = () => {
-    return(
-        <div></div>
-    )
-}
+  return <div></div>;
+};
