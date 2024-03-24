@@ -22,3 +22,10 @@ export const Primary: Story = {
     primary: true,
   },
 };
+
+export const Secondary: Story = {
+  args: {
+    description: "This is a description",
+    primary: false,
+  },
+};
