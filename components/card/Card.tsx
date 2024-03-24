@@ -6,7 +6,7 @@ interface CardProps {
 }
 
 export const Card = ({ description, primary = true }: CardProps) => (
-    <div>
-      <p className={primary ? "card-primary" : "card-secondary"}>{description}</p>
-    </div>
+  <div>
+    <p className={primary ? "card-primary" : "card-secondary"}>{description}</p>
+  </div>
 );

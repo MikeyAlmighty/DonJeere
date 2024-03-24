@@ -19,6 +19,6 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
   args: {
     description: "This is a description",
-    primary: true
+    primary: true,
   },
 };
