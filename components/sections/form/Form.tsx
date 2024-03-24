@@ -25,10 +25,12 @@ export const Form = ({ schema, successMessage }: FormProps) => {
     register,
     handleSubmit,
     formState: { errors },
+    reset
   } = useForm<IFormInput>({ resolver: yupResolver(schema) });
 
   const onSubmit = () => {
     notify();
+    reset();
   };
 
   return (
