@@ -30,7 +30,7 @@ export const About = () => (
     </span>
     <span className="bubble-container">
       <Bubble text={"Friendly Team"} />
-      <Bubble primary={false}  text={"24/7 Assistance"} />
+      <Bubble primary={false} text={"24/7 Assistance"} />
       <Bubble text={"Involved"} />
     </span>
   </span>

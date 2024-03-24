@@ -1,6 +1,6 @@
-import { createContext, useState, useContext } from 'react';
+import { createContext, useState, useContext } from "react";
 
-import {isEasterHoliday} from "../utils/isEasterHoliday";
+import { isEasterHoliday } from "../utils/isEasterHoliday";
 
 const EasterContext = createContext({});
 
@@ -17,8 +17,6 @@ export const EasterProvider = ({ children }) => {
   setIsEaster(checkIsEaster());
 
   return (
-    <EasterContext.Provider value={isEaster}>
-      {children}
-    </EasterContext.Provider>
+    <EasterContext.Provider value={isEaster}>{children}</EasterContext.Provider>
   );
 };

@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import "./Styles.scss";
 import { Links } from "./data";
 import { EasterEgg } from "../easter-egg/EasterEgg";
-import {useEaster} from "../../context/EasterContext";
+import { useEaster } from "../../context/EasterContext";
 
 export const Header = () => {
   const [selectedSection, setSelectedSection] = useState<string>("/");
@@ -28,9 +28,7 @@ export const Header = () => {
             </Link>
           ))}
           {/*Easter Egg*/}
-          {
-              isEaster && (<EasterEgg handleClick={notify} />
-          )}
+          {isEaster && <EasterEgg handleClick={notify} />}
         </ul>
       </nav>
     </header>

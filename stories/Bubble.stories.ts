@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import {Bubble} from "../components/bubble/Bubble";
+import { Bubble } from "../components/bubble/Bubble";
 
 const meta = {
   title: "Example/Bubble",
@@ -10,7 +10,7 @@ const meta = {
   },
   tags: ["autodocs"],
   argTypes: {},
-  args: { text: ""},
+  args: { text: "" },
 } satisfies Meta<typeof Bubble>;
 
 export default meta;
@@ -25,6 +25,6 @@ export const Primary: Story = {
 export const Secondary: Story = {
   args: {
     text: "Text Here",
-    primary: false
+    primary: false,
   },
 };
