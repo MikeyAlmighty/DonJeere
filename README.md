@@ -27,6 +27,7 @@ The following structure is used for developing both `components` as well as `sec
 ### Commiting
 This project uses [Husky](https://typicode.github.io/husky/) `pre-commit hooks`.
 The following hooks are ran before a commit is made:
+ - **Tests**
  - **Linter (Eslint)**
  - **Formatter (Prettier)**
  - `npm run build`
