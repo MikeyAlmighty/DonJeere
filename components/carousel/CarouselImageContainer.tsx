@@ -1,8 +1,19 @@
-import Image from "next/image";
+import BlurredImage from "../blurred-image/BlurredImage";
 
-export const CarouselImageContainer = ({ headline, image }) => (
+interface CarouselImageContainerProps {
+   headline: string;
+    image: string;
+    alt: string;
+}
+
+export const CarouselImageContainer = ({ headline, image, alt }: CarouselImageContainerProps) => (
   <div className="slide">
-    <Image className="image-container" src={image} alt={headline} width={500} height={400}/>
+    <BlurredImage
+        src={image}
+        alt={alt}
+        width={500}
+        height={400}
+    />
     <div className="slide-content">
       <h2>{headline}</h2>
     </div>

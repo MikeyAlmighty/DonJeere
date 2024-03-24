@@ -9,11 +9,11 @@ export const Landing = () => {
                 <p className="slide-in-right">For all your Tractoring needs!</p>
                 <Image
                     src="/landing.gif"
-                    alt="Tractor loading GIF"
                     unoptimized={true}
-                    style={{ borderRadius: "25px"}}
-                    width={300}
-                    height={225}
+                    alt="Tractor loading GIF"
+                    style={{ borderRadius: '25px' }}
+                    width={400}
+                    height={400}
                 />
             </div>
         </span>

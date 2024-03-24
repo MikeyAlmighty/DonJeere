@@ -60,22 +60,27 @@ const CarouselComponent = () => (
           swipeable
         >
           <CarouselImageContainer
+            alt="Tractor Model Image"
             headline="A 1000"
             image="https://picsum.photos/400"
           />
           <CarouselImageContainer
+            alt="Tractor Model Image"
             headline="Model B 2000"
             image="https://picsum.photos/400"
           />
           <CarouselImageContainer
+            alt="Tractor Model Image"
             headline="Model C 3000"
             image="https://picsum.photos/400"
           />
           <CarouselImageContainer
+            alt="Tractor Model Image"
             headline="Model D 4000"
             image="https://picsum.photos/400"
           />
           <CarouselImageContainer
+            alt="Tractor Model Image"
             headline="Model E 5000"
             image="https://picsum.photos/400"
           />
