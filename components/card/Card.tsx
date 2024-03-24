@@ -1,8 +1,12 @@
+import "./Styles.scss";
+
 interface CardProps {
-  className: string;
   description: string;
+  primary?: boolean;
 }
 
-export const Card = ({ description, className }: CardProps) => (
-  <p className={className}>{description}</p>
+export const Card = ({ description, primary = true }: CardProps) => (
+    <div>
+      <p className={primary ? "card-primary" : "card-secondary"}>{description}</p>
+    </div>
 );
