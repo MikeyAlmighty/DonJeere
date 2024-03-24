@@ -30,4 +30,4 @@ The following hooks are ran before a commit is made:
  - **Tests**
  - **Linter (Eslint)**
  - **Formatter (Prettier)**
- - `npm run build`
+ - **Build**
