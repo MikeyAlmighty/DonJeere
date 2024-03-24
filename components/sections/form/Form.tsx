@@ -25,7 +25,7 @@ export const Form = ({ schema, successMessage }: FormProps) => {
     register,
     handleSubmit,
     formState: { errors },
-    reset
+    reset,
   } = useForm<IFormInput>({ resolver: yupResolver(schema) });
 
   const onSubmit = () => {
