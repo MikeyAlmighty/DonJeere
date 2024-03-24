@@ -2,17 +2,11 @@
 @import 'media-queries';
 
 .carousel-container {
-  margin: 5rem;
-  padding: 1em;
+  margin-left: 1.5em;
   border-radius: 25px;
-  border: $primary-border;
-  background: $secondary-color;
   @include tablet {
     margin: 0;
   }
-}
-
-.slide-content {
 }
 
 .image-container {
