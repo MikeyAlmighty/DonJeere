@@ -50,9 +50,10 @@ h3 {
 }
 
 .slide-in-right {
-    font-weight: 400;
+    font-weight: 550;
     animation: slideInFromRight 1s forwards;
-    color: black;
+    color: gray;
+    font-style: italic;
     opacity: 0;
     font-size: large;
 }
