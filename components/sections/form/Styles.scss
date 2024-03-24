@@ -15,8 +15,8 @@
   margin: 0 20vw;
   padding: 0 1em;
   border-radius: 25px;
-  background-color: $secondary-color;
-  border: $primary-border;
+  border: 10px solid $secondary-color;
+
   @include tablet {
     width: 90vw;
     height: 65vh

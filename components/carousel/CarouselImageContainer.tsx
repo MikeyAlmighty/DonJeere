@@ -11,10 +11,8 @@ export const CarouselImageContainer = ({
   image,
   alt,
 }: CarouselImageContainerProps) => (
-  <div className="slide">
+  <div className="image-container">
     <BlurredImage src={image} alt={alt} width={500} height={400} />
-    <div>
-      <h2>{headline}</h2>
-    </div>
+    <h2>{headline}</h2>
   </div>
 );

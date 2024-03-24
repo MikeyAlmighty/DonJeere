@@ -3,7 +3,7 @@
 
 .metricContainer {
     height: 20vh;
-    background-color: $secondary-color;
+    border: 10px solid $secondary-color;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,7 +11,7 @@
     margin-top: 5em;
     flex-direction: row;
     text-align: center;
-    border: $primary-border;
+
     @include tablet {
         flex-direction: column;
         height: 75vh;
@@ -26,5 +26,6 @@
 
 .value {
     color: black;
+    font-weight: 700;
     font-size: x-large;
 }

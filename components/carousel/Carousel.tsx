@@ -61,12 +61,12 @@ const CarouselComponent = () => (
     >
       <CarouselImageContainer
         alt="Tractor Model Image"
-        headline="A 1000"
+        headline="Plowing Powerhammer"
         image="https://picsum.photos/400"
       />
       <CarouselImageContainer
         alt="Tractor Model Image"
-        headline="Model B 2000"
+        headline="Serious Seeder"
         image="https://picsum.photos/400"
       />
       <CarouselImageContainer

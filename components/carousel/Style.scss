@@ -5,10 +5,14 @@
   margin-left: 1.5em;
   border-radius: 25px;
   @include tablet {
-    margin: 0;
+    width: 90vw;
   }
 }
 
 .image-container {
-  border: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+  font-weight: 700;
 }
